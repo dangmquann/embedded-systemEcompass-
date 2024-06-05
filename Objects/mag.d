@@ -1,0 +1,12 @@
+.\objects\mag.o: mag.c
+.\objects\mag.o: .\RTE\Device\MKL46Z256VLL4\MKL46Z4.h
+.\objects\mag.o: C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\mag.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\mag.o: C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\mag.o: C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\mag.o: C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\mag.o: .\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h
+.\objects\mag.o: i2c.h
+.\objects\mag.o: lcd.h
+.\objects\mag.o: C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin\..\include\math.h
+.\objects\mag.o: mag.h

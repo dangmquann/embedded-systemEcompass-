@@ -1,0 +1,170 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.39.0.0
+Copyright (C) 2023 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Fong Pham, UET, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.39.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.39.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      PEMicro\Pemicro_ArmCortexInterface.dll V1.3.0.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+D:\Ayya\Nhung\final.uvprojx
+Project File Date:  06/05/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'C:\Keil_v5\ARM\ARM_Compiler_5.06u7\Bin'
+Build target 'Target 1'
+compiling main.c...
+mag.h(36): warning:  #1-D: last line of file ends without a newline
+  #endif
+i2c.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c(57): warning:  #1295-D: Deprecated declaration SetGPIOPriority - give arg types
+  void SetGPIOPriority();
+main.c(58): warning:  #1295-D: Deprecated declaration SetSysTickPriority - give arg types
+  void SetSysTickPriority();
+main.c(292): warning:  #167-D: argument of type "unsigned char *" is incompatible with parameter of type "char *__restrict__"
+              		snprintf(ucaryLCDMsg,5,"%4d",ANGLE);
+main.c(337): warning:  #111-D: statement is unreachable
+  	return 0;
+main.c(433): warning:  #1-D: last line of file ends without a newline
+  }
+main.c: 7 warnings, 0 errors
+linking...
+.\Objects\final.axf: Warning: L6914W: option ro-base ignored when using --scatter.
+.\Objects\final.axf: Warning: L6914W: option rw-base ignored when using --scatter.
+.\Objects\final.axf: Warning: L6340W: options first and last are ignored for link type of scattered
+Program Size: Code=12404 RO-data=1372 RW-data=176 ZI-data=2060  
+Finished: 0 information, 3 warning and 0 error messages.
+".\Objects\final.axf" - 0 Error(s), 10 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM::CMSIS@5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: NXP
+                http://mcuxpresso.nxp.com/cmsis_pack/repo/NXP.MKL46Z4_DFP.10.0.3.pack
+                NXP::MKL46Z4_DFP@10.0.3
+                Device Family Pack for MKL46Z4
+   * Component: project_template Variant: MKL46Z4 Version: 1.0.0
+   * Component: clock Version: 2.1.0
+   * Component: common Version: 2.0.0
+   * Component: flash Version: 3.0.0
+   * Component: gpio Version: 2.2.1
+   * Component: i2c Version: 2.0.5
+   * Component: lpsci Version: 2.0.4
+   * Component: port Version: 2.0.2
+   * Component: smc Version: 2.0.3
+   * Component: uart Version: 2.1.5
+   * Component: debug_console Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Board_Support/MKL46Z256VLL4
+  ./RTE/Device/MKL46Z256VLL4
+  ./RTE/_Target_1
+  C:/Users/ASUS/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers
+  C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities
+  C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/io
+  C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/log
+  C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/str
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@5.6.0
+
+   * Component: NXP::Board Support:SDK Project Template:project_template&MKL46Z4@1.0.0
+      Source file:   project_template/clock_config.c
+      Include file:  project_template/board.h
+      Include file:  project_template/pin_mux.h
+      Source file:   project_template/board.c
+      Include file:  project_template/clock_config.h
+      Source file:   project_template/peripherals.c
+      Include file:  project_template/peripherals.h
+      Source file:   project_template/pin_mux.c
+
+   * Component: NXP::Device:SDK Drivers:clock@2.1.0
+      Include file:  drivers/fsl_clock.h
+      Source file:   drivers/fsl_clock.c
+
+   * Component: NXP::Device:SDK Drivers:common@2.0.0
+      Include file:  drivers/fsl_common.h
+      Source file:   drivers/fsl_common.c
+
+   * Component: NXP::Device:SDK Drivers:flash@3.0.0
+      Include file:  drivers/fsl_ftfx_adapter.h
+      Source file:   drivers/fsl_ftfx_cache.c
+      Include file:  drivers/fsl_flash.h
+      Include file:  drivers/fsl_ftfx_utilities.h
+      Include file:  drivers/fsl_ftfx_features.h
+      Source file:   drivers/fsl_ftfx_flash.c
+      Source file:   drivers/fsl_ftfx_controller.c
+      Include file:  drivers/fsl_ftfx_flash.h
+      Source file:   drivers/fsl_ftfx_flexnvm.c
+      Include file:  drivers/fsl_ftfx_cache.h
+      Include file:  drivers/fsl_ftfx_flexnvm.h
+      Include file:  drivers/fsl_ftfx_controller.h
+
+   * Component: NXP::Device:SDK Drivers:gpio@2.2.1
+      Include file:  drivers/fsl_gpio.h
+      Source file:   drivers/fsl_gpio.c
+
+   * Component: NXP::Device:SDK Drivers:i2c@2.0.5
+      Include file:  drivers/fsl_i2c.h
+      Source file:   drivers/fsl_i2c.c
+
+   * Component: NXP::Device:SDK Drivers:lpsci@2.0.4
+      Include file:  drivers/fsl_lpsci.h
+      Source file:   drivers/fsl_lpsci.c
+
+   * Component: NXP::Device:SDK Drivers:port@2.0.2
+      Include file:  drivers/fsl_port.h
+
+   * Component: NXP::Device:SDK Drivers:smc@2.0.3
+      Source file:   drivers/fsl_smc.c
+      Include file:  drivers/fsl_smc.h
+
+   * Component: NXP::Device:SDK Drivers:uart@2.1.5
+      Source file:   drivers/fsl_uart.c
+      Include file:  drivers/fsl_uart.h
+
+   * Component: NXP::Device:SDK Utilities:debug_console@1.0.0
+      Include file:  utilities/fsl_debug_console.h
+      Source file:   utilities/str/fsl_str.c
+      Include file:  utilities/io/fsl_io.h
+      Include file:  utilities/log/fsl_log.h
+      Include file:  utilities/str/fsl_str.h
+      Source file:   utilities/log/fsl_log.c
+      Source file:   utilities/fsl_debug_console.c
+      Include file:  utilities/fsl_debug_console_conf.h
+      Source file:   utilities/io/fsl_io.c
+
+   * Component: NXP::Device:Startup@1.0.0
+      Source file:   arm/startup_MKL46Z4.s
+      Include file:  fsl_device_registers.h
+      Source file:   system_MKL46Z4.c
+      Include file:  MKL46Z4_features.h
+      Include file:  MKL46Z4.h
+      Include file:  system_MKL46Z4.h
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

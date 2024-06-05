@@ -1,0 +1,431 @@
+Dependencies for Project 'final', Target 'Target 1': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARM_Compiler_5.06u7
+F (.\main.c)(0x665FAFB1)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (lcd.h)(0x665F33E4)
+I (mag.h)(0x665F7C82)
+I (i2c.h)(0x665F76F7)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (.\RTE\Board_Support\MKL46Z256VLL4\board.h)(0x65D69AEE)
+I (.\RTE\Board_Support\MKL46Z256VLL4\clock_config.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_gpio.h)(0x65D69AEE)
+I (.\RTE\Board_Support\MKL46Z256VLL4\pin_mux.h)(0x65D69AEE)
+F (.\lcd.c)(0x665F35BF)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\lcd.o --omf_browse .\objects\lcd.crf --depend .\objects\lcd.d)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (lcd.h)(0x665F33E4)
+F (.\lcd.h)(0x665F33E4)()
+F (.\mag.c)(0x665F7C81)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\mag.o --omf_browse .\objects\mag.crf --depend .\objects\mag.d)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (i2c.h)(0x665F76F7)
+I (lcd.h)(0x665F33E4)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E4AD2)
+I (mag.h)(0x665F7C82)
+F (.\mag.h)(0x665F7C82)()
+F (.\i2c.c)(0x665F76F7)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\i2c.o --omf_browse .\objects\i2c.crf --depend .\objects\i2c.d)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (i2c.h)(0x665F76F7)
+I (delay.h)(0x665F3304)
+F (.\i2c.h)(0x665F76F7)()
+F (.\delay.h)(0x665F3304)()
+F (RTE/Board_Support/MKL46Z256VLL4/board.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\board.o --omf_browse .\objects\board.crf --depend .\objects\board.d)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_port.h)(0x65D69AEE)
+I (RTE/Board_Support/MKL46Z256VLL4/clock_config.h)(0x65D69AEE)
+I (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_gpio.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console.h)(0x65D69AEE)
+F (RTE/Board_Support/MKL46Z256VLL4/board.h)(0x65D69AEE)()
+F (RTE/Board_Support/MKL46Z256VLL4/clock_config.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\clock_config.o --omf_browse .\objects\clock_config.crf --depend .\objects\clock_config.d)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_smc.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (RTE/Board_Support/MKL46Z256VLL4/clock_config.h)(0x65D69AEE)
+F (RTE/Board_Support/MKL46Z256VLL4/clock_config.h)(0x65D69AEE)()
+F (RTE/Board_Support/MKL46Z256VLL4/peripherals.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\peripherals.o --omf_browse .\objects\peripherals.crf --depend .\objects\peripherals.d)
+I (RTE\Board_Support\MKL46Z256VLL4\peripherals.h)(0x65D69AEE)
+F (RTE/Board_Support/MKL46Z256VLL4/peripherals.h)(0x65D69AEE)()
+F (RTE/Board_Support/MKL46Z256VLL4/pin_mux.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\pin_mux.o --omf_browse .\objects\pin_mux.crf --depend .\objects\pin_mux.d)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_port.h)(0x65D69AEE)
+I (RTE/Board_Support/MKL46Z256VLL4/pin_mux.h)(0x65D69AEE)
+F (RTE/Board_Support/MKL46Z256VLL4/pin_mux.h)(0x65D69AEE)()
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_clock.o --omf_browse .\objects\fsl_clock.crf --depend .\objects\fsl_clock.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_common.o --omf_browse .\objects\fsl_common.crf --depend .\objects\fsl_common.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_cache.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_ftfx_cache.o --omf_browse .\objects\fsl_ftfx_cache.crf --depend .\objects\fsl_ftfx_cache.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_cache.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_adapter.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_utilities.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_ftfx_controller.o --omf_browse .\objects\fsl_ftfx_controller.crf --depend .\objects\fsl_ftfx_controller.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_adapter.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_utilities.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_flash.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_ftfx_flash.o --omf_browse .\objects\fsl_ftfx_flash.crf --depend .\objects\fsl_ftfx_flash.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_flash.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_adapter.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_utilities.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_flexnvm.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_ftfx_flexnvm.o --omf_browse .\objects\fsl_ftfx_flexnvm.crf --depend .\objects\fsl_ftfx_flexnvm.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_flexnvm.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_adapter.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_utilities.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_gpio.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_gpio.o --omf_browse .\objects\fsl_gpio.crf --depend .\objects\fsl_gpio.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_gpio.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_i2c.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_i2c.o --omf_browse .\objects\fsl_i2c.crf --depend .\objects\fsl_i2c.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_i2c.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_lpsci.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_lpsci.o --omf_browse .\objects\fsl_lpsci.crf --depend .\objects\fsl_lpsci.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_lpsci.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_smc.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_smc.o --omf_browse .\objects\fsl_smc.crf --depend .\objects\fsl_smc.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_smc.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_flash.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_cache.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_controller.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_adapter.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_utilities.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_ftfx_flash.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_uart.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_uart.o --omf_browse .\objects\fsl_uart.crf --depend .\objects\fsl_uart.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_uart.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/drivers/fsl_clock.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_debug_console.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_debug_console.o --omf_browse .\objects\fsl_debug_console.crf --depend .\objects\fsl_debug_console.d)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdio.h)(0x5E8E4AD2)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_debug_console.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/fsl_debug_console_conf.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log\fsl_log.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str\fsl_str.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/io/fsl_io.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_io.o --omf_browse .\objects\fsl_io.crf --depend .\objects\fsl_io.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/io/fsl_io.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console_conf.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_uart.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_lpsci.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/log/fsl_log.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_log.o --omf_browse .\objects\fsl_log.crf --depend .\objects\fsl_log.d)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/log/fsl_log.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console_conf.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io\fsl_io.h)(0x65D69AEE)
+F (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/str/fsl_str.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\fsl_str.o --omf_browse .\objects\fsl_str.crf --depend .\objects\fsl_str.d)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\math.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdarg.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdlib.h)(0x5E8E4AD2)
+I (C:/Users/ASUS/AppData/Local/Arm/Packs/NXP/MKL46Z4_DFP/10.0.3/utilities/str/fsl_str.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_common.h)(0x65D69AEE)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\assert.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdbool.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\string.h)(0x5E8E4AD2)
+I (.\RTE\Device\MKL46Z256VLL4\fsl_device_registers.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (.\RTE\Device\MKL46Z256VLL4\system_MKL46Z4.h)(0x65D69AEE)
+I (.\RTE\Device\MKL46Z256VLL4\MKL46Z4_features.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers\fsl_clock.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\fsl_debug_console_conf.h)(0x65D69AEE)
+F (RTE/Device/MKL46Z256VLL4/MKL46Z256xxx4_flash.scf)(0x65D69AEE)()
+F (RTE/Device/MKL46Z256VLL4/MKL46Z256xxx4_ram.scf)(0x65D69AEE)()
+F (RTE/Device/MKL46Z256VLL4/MKL46Z4.h)(0x65D69AEE)()
+F (RTE/Device/MKL46Z256VLL4/MKL46Z4_features.h)(0x65D69AEE)()
+F (RTE/Device/MKL46Z256VLL4/fsl_device_registers.h)(0x65D69AEE)()
+F (RTE/Device/MKL46Z256VLL4/startup_MKL46Z4.s)(0x65D69AEE)(--cpu Cortex-M0+ --pd "__EVAL SETA 1" -g --apcs=interwork -I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3--pd "__UVISION_VERSION SETA 539" --pd "_RTE_ SETA 1" --pd "CPU_MKL46Z256VLL4 SETA 1" --pd "_RTE_ SETA 1"--list .\listings\startup_mkl46z4.lst --xref -o .\objects\startup_mkl46z4.o --depend .\objects\startup_mkl46z4.d)
+F (RTE/Device/MKL46Z256VLL4/system_MKL46Z4.c)(0x65D69AEE)(--c99 --gnu -c --cpu Cortex-M0+ -D__EVAL -g -O0 --apcs=interwork --split_sections-I.\RTE\Board_Support\MKL46Z256VLL4-I.\RTE\Device\MKL46Z256VLL4-I.\RTE\_Target_1-IC:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\drivers-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\io-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\log-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3\utilities\str-IC:\Users\ASUS\AppData\Local\Arm\Packs\NXP\MKL46Z4_DFP\10.0.3-D__UVISION_VERSION="539" -D_RTE_ -DCPU_MKL46Z256VLL4 -D_RTE_-o .\objects\system_mkl46z4.o --omf_browse .\objects\system_mkl46z4.crf --depend .\objects\system_mkl46z4.d)
+I (C:\Keil_v5\ARM\ARM_Compiler_5.06u7\include\stdint.h)(0x5E8E4AD2)
+I (RTE/Device/MKL46Z256VLL4/fsl_device_registers.h)(0x65D69AEE)
+I (RTE/Device/MKL46Z256VLL4/MKL46Z4.h)(0x65D69AEE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h)(0x626F58EE)
+I (C:\Users\ASUS\AppData\Local\Arm\Packs\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h)(0x626F58EE)
+I (RTE/Device/MKL46Z256VLL4/system_MKL46Z4.h)(0x65D69AEE)
+I (RTE/Device/MKL46Z256VLL4/MKL46Z4_features.h)(0x65D69AEE)
+F (RTE/Device/MKL46Z256VLL4/system_MKL46Z4.h)(0x65D69AEE)()
